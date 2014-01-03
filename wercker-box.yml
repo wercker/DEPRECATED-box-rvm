@@ -1,0 +1,28 @@
+name: rvm
+version: 0.0.1
+inherits: wercker/ubuntu12.04-webessentials@1.0.1
+type: main
+platform: ubuntu@12.04
+packages:
+  - ruby@1.9.3-p484
+  - ruby@2.0.0-p247
+  - ruby@2.0.0-p353
+  - ruby@2.1.0-p0
+keywords:
+  - ruby
+  - rvm
+script: |-
+  sudo apt-get update -y
+  sudo apt-get install git zlib1g-dev libreadline-dev libqtwebkit-dev curl -y
+  sudo apt-get remove ruby1.9.1
+  curl -sSL https://get.rvm.io | bash -s stable
+  mkdir -p $HOME/.rvm/gemsets/global.gems
+  echo "bundler -v1.3" > $HOME/.rvm/gemsets/global.gems
+  source $HOME/.rvm/scripts/rvm
+  rvm install 1.9.3-p484
+  rvm install 2.0.0-p247
+  rvm install 2.0.0-p353
+  rvm install 2.1.0-p0
+  echo "gem: --no-rdoc --no-ri" >> $HOME/.gemrc
+  echo "RAILS_ENV=test" | sudo tee -a /etc/environment
+  echo "RACK_ENV=test" | sudo tee -a /etc/environment
