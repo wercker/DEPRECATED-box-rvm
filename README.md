@@ -2,12 +2,31 @@
 
 This box provides the RVM runtime with a couple of Rubies installed.
 
-Currently installed:
-- 
+Currently installed Rubies:
+
+- `ruby-1.9.3-p484`
+- `ruby-2.0.0-p247`
+- `ruby-2.0.0-p353`
+- `ruby-2.1.0-p0`
+
+At least _three_ patch level versions will be kept of every version. If you want to keep using a old version you can lock the version on a box, but we __strongly__ recommend upgrading to a newer version. 
+
+To switch the Ruby version specify a Ruby version accoring to the following [rules](https://rvm.io/workflow/projects):
+
+> Listed in order of precedence:
+> 
+> - `.rvmrc` - shell script allowing full customization of the environment,
+> - `.versions.conf` - `key=value` configuration file
+> - `.ruby-version` - single line `ruby-version` only
+> - `Gemfile` - comment: `#ruby=1.9.3` and directive: `ruby "1.9.3"`
+
+You can also manually change the version by using the `wercker/rvm-use` step.
+
+Every installed Ruby version comes installed with `bundler 1.5`.
 
 # What's new
 
-- Inherit `wercker/ubuntu12.04-nodejs0.10` version `1.0.2`
+- Initial release
 
 # License
 
@@ -15,27 +34,6 @@ The MIT License (MIT)
 
 # Changelog
 
-## 1.0.1 
-
-- Inherit `wercker/ubuntu12.04-nodejs0.10` version `1.0.2`
-
 ## 1.0.0
-
-- Inherit `wercker/ubuntu12.04-nodejs0.10` version 1.0.0
-
-## 0.0.12
-
-- Inherit from ubuntu12.04-nodejs0.8 version 0.0.8
-
-## 0.0.11
-
-- Inherit from ubuntu12.04-nodejs0.8 version 0.0.7
-
-## 0.0.10
-
-- Add license
-- Update readme
-
-## 0.0.9
 
 - Initial release
