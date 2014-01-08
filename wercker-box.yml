@@ -16,7 +16,7 @@ script: |-
   sudo apt-get install git zlib1g-dev libreadline-dev libqtwebkit-dev curl -y
   sudo apt-get remove ruby1.9.1
   curl -sSL https://get.rvm.io | bash -s stable
-  echo "bundler -v1.5" > $HOME/.rvm/gemsets/global.gems
+  echo "bundler -v1.5.1" > $HOME/.rvm/gemsets/global.gems
   source $HOME/.rvm/scripts/rvm
   rvm install 1.9.3-p484
   rvm install 2.0.0-p247
