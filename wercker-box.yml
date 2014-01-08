@@ -21,7 +21,7 @@ script: |-
   rvm install 1.9.3-p484
   rvm install 2.0.0-p247
   rvm install 2.0.0-p353
-  rvm install 2.1.0-p0
+  rvm install 2.1.0
   rvm --default use 2.0.0-p353
   echo "gem: --no-rdoc --no-ri" >> $HOME/.gemrc
   echo "RAILS_ENV=test" | sudo tee -a /etc/environment
