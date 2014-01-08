@@ -26,13 +26,17 @@ Every installed Ruby version comes installed with `bundler 1.5`.
 
 # What's new
 
-- Initial release
+- Use bundler version ~> 1.5.1
 
 # License
 
 The MIT License (MIT)
 
 # Changelog
+
+## 1.0.1
+
+- Use bundler version ~> 1.5.1
 
 ## 1.0.0
 
