@@ -4,6 +4,7 @@ This box provides the RVM runtime with a couple of Rubies installed.
 
 Currently installed Rubies:
 
+- `ruby-1.9.3-p448`
 - `ruby-1.9.3-p484`
 - `ruby-2.0.0-p247`
 - `ruby-2.0.0-p353`
