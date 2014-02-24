@@ -35,7 +35,7 @@ The MIT License (MIT)
 
 # Changelog
 
-## 1.0.3
+## 1.0.4
 
 - Add `ruby-2.1.1`
 
