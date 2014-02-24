@@ -1,5 +1,5 @@
 name: rvm
-version: 1.0.2
+version: 1.0.3
 inherits: wercker/ubuntu12.04-webessentials@1.0.0
 type: main
 platform: ubuntu@12.04
@@ -8,6 +8,7 @@ packages:
     - ruby@2.0.0-p247
     - ruby@2.0.0-p353
     - ruby@2.1.0
+    - ruby@2.1.1
 keywords:
     - ruby
     - rvm
@@ -22,6 +23,7 @@ script: |
     rvm install 2.0.0-p247
     rvm install 2.0.0-p353
     rvm install 2.1.0
+    rvm install 2.1.1
     rvm --default use 2.0.0-p353
     echo "gem: --no-rdoc --no-ri" >> $HOME/.gemrc
     echo "RAILS_ENV=test" | sudo tee -a /etc/environment
