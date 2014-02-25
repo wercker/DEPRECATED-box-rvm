@@ -5,8 +5,10 @@ This box provides the RVM runtime with a couple of Rubies installed.
 Currently installed Rubies:
 
 - `ruby-1.9.3-p484`
+- `ruby-1.9.3-p545`
 - `ruby-2.0.0-p247`
 - `ruby-2.0.0-p353`
+- `ruby-2.0.0-p451` (default)
 - `ruby-2.1.0`
 - `ruby-2.1.1`
 
@@ -27,7 +29,9 @@ Every installed Ruby version comes installed with `bundler ~> 1.5.1`.
 
 # What's new
 
-- Add `box-detect` and `default-build`
+- Add `ruby-1.9.3-p545`
+- Add `ruby-2.0.0-p451`
+- Add `ruby-2.1.1`
 
 # License
 
@@ -35,8 +39,10 @@ The MIT License (MIT)
 
 # Changelog
 
-## 1.0.4
+## 1.0.5
 
+- Add `ruby-1.9.3-p545`
+- Add `ruby-2.0.0-p451`
 - Add `ruby-2.1.1`
 
 ## 1.0.2
