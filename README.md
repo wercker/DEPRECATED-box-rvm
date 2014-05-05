@@ -25,11 +25,11 @@ To switch the Ruby version specify a Ruby version accoring to the following [rul
 
 You can also manually change the version by using the `wercker/rvm-use` step.
 
-Every installed Ruby version comes installed with `bundler ~> 1.6.2`.
+Every installed Ruby version comes installed with `bundler ~> 1.5.1`.
 
 # What's new
 
-- bundler upgraded to version 1.6.2
+- use wercker-essentials 1.0.2
 
 # License
 
