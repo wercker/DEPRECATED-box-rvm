@@ -42,6 +42,10 @@ The MIT License (MIT)
 
 # Changelog
 
+## 2.0.1
+ 
+- use of updated wercker-essentials box (fix for missing phantomjs)
+
 ## 2.0.0
 
 - Add `ruby-2.0.0-p481`
