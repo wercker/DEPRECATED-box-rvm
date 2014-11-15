@@ -7,12 +7,15 @@ Currently installed Rubies:
 - `ruby-1.9.3-p545` (deprecated)
 - `ruby-1.9.3-p547`
 - `ruby-1.9.3-p550`
+- `ruby-1.9.3-p551`
 - `ruby-2.0.0-p481` (deprecated)
-- `ruby-2.0.0-p576` 
-- `ruby-2.0.0-p594` (default)
+- `ruby-2.0.0-p576`
+- `ruby-2.0.0-p594`
+- `ruby-2.0.0-p598` (default)
 - `ruby-2.1.2` (deprecated)
 - `ruby-2.1.3`
 - `ruby-2.1.4`
+- `ruby-2.1.5`
 
 At least _three_ patch level versions will be kept of every version. If you want to keep using a old version you can lock the version on a box, but we __strongly__ recommend upgrading to a newer version.
 
@@ -33,13 +36,10 @@ Every installed Ruby version comes installed with `bundler ~> 1.5.1`.
 
 # What's new
 
-- Added `ruby-1.9.3-p550`
-- Added `ruby-2.0.0-p594`
-- Added `ruby-2.1.4`
-- Removed `ruby-1.9.3-p484`
-- Removed `ruby-2.0.0-p451`
-- Removed `ruby-2.1.1`
-- Set `ruby-2.0.0-p594` as default
+- Added `ruby-1.9.3-p551`
+- Added `ruby-2.0.0-p598`
+- Added `ruby-2.1.5`
+- Set `ruby-2.0.0-p598` as default
 
 # License
 
@@ -66,7 +66,7 @@ The MIT License (MIT)
 - Set `ruby-2.0.0-p576` as default
 
 ## 2.0.1
- 
+
 - use of updated wercker-essentials box (fix for missing phantomjs)
 
 ## 2.0.0
