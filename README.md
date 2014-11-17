@@ -4,24 +4,25 @@ This box provides the RVM runtime with a couple of Rubies installed.
 
 Currently installed Rubies:
 
-- `ruby-1.9.3-p545` (deprecated)
-- `ruby-1.9.3-p547`
+- `ruby-1.9.3-p547` (deprecated)
 - `ruby-1.9.3-p550`
 - `ruby-1.9.3-p551`
-- `ruby-2.0.0-p481` (deprecated)
-- `ruby-2.0.0-p576`
+- `ruby-2.0.0-p576` (deprecated)
 - `ruby-2.0.0-p594`
-- `ruby-2.0.0-p598` (default)
-- `ruby-2.1.2` (deprecated)
-- `ruby-2.1.3`
+- `ruby-2.0.0-p598`
+- `ruby-2.1.3` (deprecated)
 - `ruby-2.1.4`
-- `ruby-2.1.5`
+- `ruby-2.1.5` (default)
 
-At least _three_ patch level versions will be kept of every version. If you want to keep using a old version you can lock the version on a box, but we __strongly__ recommend upgrading to a newer version.
+At least _three_ patch level versions will be kept of every version. If you want
+to keep using a old version you can lock the version on a box, but we
+__strongly__ recommend upgrading to a newer version.
 
-If a Ruby version has `deprecated` next to it, than that version will be removed next time a new Ruby version gets released.
+If a Ruby version has `deprecated` next to it, than that version will be removed
+next time a new Ruby version gets released.
 
-To switch the Ruby version specify a Ruby version accoring to the following [rules](https://rvm.io/workflow/projects):
+To switch the Ruby version specify a Ruby version accoring to the following
+[rules](https://rvm.io/workflow/projects):
 
 > Listed in order of precedence:
 >
@@ -39,13 +40,26 @@ Every installed Ruby version comes installed with `bundler ~> 1.5.1`.
 - Added `ruby-1.9.3-p551`
 - Added `ruby-2.0.0-p598`
 - Added `ruby-2.1.5`
-- Set `ruby-2.0.0-p598` as default
+- Removed `ruby-1.9.3-p545`
+- Removed `ruby-2.0.0-p481`
+- Removed `ruby-2.1.2`
+- Set `ruby-2.1.5` as default
 
 # License
 
 The MIT License (MIT)
 
 # Changelog
+
+## 2.3.0
+
+- Added `ruby-1.9.3-p551`
+- Added `ruby-2.0.0-p598`
+- Added `ruby-2.1.5`
+- Removed `ruby-1.9.3-p545`
+- Removed `ruby-2.0.0-p481`
+- Removed `ruby-2.1.2`
+- Set `ruby-2.1.5` as default
 
 ## 2.2.0
 
