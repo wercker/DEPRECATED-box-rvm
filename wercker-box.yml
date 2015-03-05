@@ -1,5 +1,5 @@
 name: rvm
-version: 2.4.0
+version: 2.5.0
 inherits: wercker/ubuntu12.04-webessentials@1.0.4
 type: main
 platform: ubuntu@12.04
@@ -14,6 +14,7 @@ packages:
     - ruby@2.1.4
     - ruby@2.1.5
     - ruby@2.2.0
+    - ruby@2.2.1
 keywords:
     - ruby
     - rvm
@@ -35,7 +36,8 @@ script: |
     rvm install 2.1.4
     rvm install 2.1.5
     rvm install 2.2.0
-    rvm --default use 2.2.0
+    rvm install 2.2.1
+    rvm --default use 2.2.1
     echo "gem: --no-rdoc --no-ri" >> $HOME/.gemrc
     echo "RAILS_ENV=test" | sudo tee -a /etc/environment
     echo "RACK_ENV=test" | sudo tee -a /etc/environment
@@ -66,7 +68,7 @@ default-build:
                 steps:
                     # Uncomment this to force RVM to use a specific Ruby version
                     # - rvm-use:
-                    #       version: 2.2.0
+                    #       version: 2.2.1
 
                     # A step that executes `bundle install` command
                     - bundle-install
@@ -100,7 +102,7 @@ default-build:
                 steps:
                     # Uncomment this to force RVM to use a specific Ruby version
                     # - rvm-use:
-                    #       version: 2.2.0
+                    #       version: 2.2.1
 
                     # A step that executes `bundle install` command
                     - bundle-install
