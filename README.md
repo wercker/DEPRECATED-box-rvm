@@ -7,9 +7,9 @@ Currently installed Rubies:
 - `ruby-1.9.3-p547` (deprecated)
 - `ruby-1.9.3-p550`
 - `ruby-1.9.3-p551`
-- `ruby-2.0.0-p576` (deprecated)
-- `ruby-2.0.0-p594`
+- `ruby-2.0.0-p594` (deprecated)
 - `ruby-2.0.0-p598`
+- `ruby-2.0.0-p643`
 - `ruby-2.1.3` (deprecated)
 - `ruby-2.1.4`
 - `ruby-2.1.5`
@@ -37,16 +37,6 @@ You can also manually change the version by using the `wercker/rvm-use` step.
 
 Every installed Ruby version comes installed with `bundler ~> 1.5.1`.
 
-# What's new
-
-- Added `ruby-1.9.3-p551`
-- Added `ruby-2.0.0-p598`
-- Added `ruby-2.1.5`
-- Removed `ruby-1.9.3-p545`
-- Removed `ruby-2.0.0-p481`
-- Removed `ruby-2.1.2`
-- Set `ruby-2.1.5` as default
-
 # License
 
 The MIT License (MIT)
@@ -55,7 +45,9 @@ The MIT License (MIT)
 
 ## 2.5.0
 
-- Added `ruby-2.2-1`
+- Added `ruby-2.2.1`
+- Added `ruby-2.0.0-p643`
+- Removed `ruby-2.0.0-p576`
 - Set `ruby-2.2.1` as default
 
 ## 2.4.0
