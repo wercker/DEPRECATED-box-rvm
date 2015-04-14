@@ -5,17 +5,15 @@ This box provides the RVM runtime with a couple of Rubies installed.
 Currently installed Rubies:
 
 - `ruby-1.9.3-p547` (deprecated)
-- `ruby-1.9.3-p550`
-- `ruby-1.9.3-p551`
-- `ruby-2.0.0-p594` (deprecated)
-- `ruby-2.0.0-p598`
+- `ruby-1.9.3-p550` (deprecated)
+- `ruby-1.9.3-p551` (deprecated)
+- `ruby-2.0.0-p598` (deprecated)
 - `ruby-2.0.0-p643`
 - `ruby-2.0.0-p645`
-- `ruby-2.1.3` (deprecated)
-- `ruby-2.1.4`
+- `ruby-2.1.4` (deprecated)
 - `ruby-2.1.5`
 - `ruby-2.1.6`
-- `ruby-2.2.0`
+- `ruby-2.2.0` (deprecated)
 - `ruby-2.2.1`
 - `ruby-2.2.2` (default)
 
@@ -46,12 +44,15 @@ The MIT License (MIT)
 
 # Changelog
 
-## 2.6.0
+## 3.0.0
 
 - Added `ruby-2.2.2`
 - Added `ruby-2.1.6`
 - Added `ruby-2.0.0-p645`
+- Removed `ruby-2.1.4`
+- Removed `ruby-2.0.0-p594`
 - Set `ruby-2.2.2` as default
+- Update installed bundler gem to `1.9.0`
 
 ## 2.5.0
 
