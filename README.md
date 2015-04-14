@@ -10,11 +10,14 @@ Currently installed Rubies:
 - `ruby-2.0.0-p594` (deprecated)
 - `ruby-2.0.0-p598`
 - `ruby-2.0.0-p643`
+- `ruby-2.0.0-p645`
 - `ruby-2.1.3` (deprecated)
 - `ruby-2.1.4`
 - `ruby-2.1.5`
+- `ruby-2.1.6`
 - `ruby-2.2.0`
-- `ruby-2.2.1` (default)
+- `ruby-2.2.1`
+- `ruby-2.2.2` (default)
 
 At least _three_ patch level versions will be kept of every version. If you want
 to keep using a old version you can lock the version on a box, but we
@@ -42,6 +45,13 @@ Every installed Ruby version comes installed with `bundler ~> 1.5.1`.
 The MIT License (MIT)
 
 # Changelog
+
+## 2.6.0
+
+- Added `ruby-2.2.2`
+- Added `ruby-2.1.6`
+- Added `ruby-2.0.0-p645`
+- Set `ruby-2.2.2` as default
 
 ## 2.5.0
 
