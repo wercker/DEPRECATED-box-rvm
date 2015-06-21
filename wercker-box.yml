@@ -21,7 +21,7 @@ keywords:
     - rvm
 script: |
     sudo apt-get update -y
-    sudo apt-get install git zlib1g-dev libreadline-dev libqtwebkit-dev curl -y
+    sudo apt-get install git zlib1g-dev libreadline-dev libqtwebkit-dev libmagickwand-dev curl -y
     sudo apt-get remove ruby1.9.1
     gpg --keyserver hkp://keys.gnupg.net --recv-keys D39DC0E3
     curl -sSL https://get.rvm.io | bash -s stable
