@@ -41,7 +41,7 @@ The MIT License (MIT)
 
 # Changelog
 
-## master
+## 4.0.0
 
 - Added `ruby-2.2.3`
 - Added `ruby-2.1.7`
