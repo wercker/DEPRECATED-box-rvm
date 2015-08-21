@@ -4,18 +4,15 @@ This box provides the RVM runtime with a couple of Rubies installed.
 
 Currently installed Rubies:
 
-- `ruby-1.9.3-p547` (deprecated)
-- `ruby-1.9.3-p550` (deprecated)
-- `ruby-1.9.3-p551` (deprecated)
-- `ruby-2.0.0-p598` (deprecated)
-- `ruby-2.0.0-p643`
+- `ruby-2.0.0-p643` (deprecated)
 - `ruby-2.0.0-p645`
-- `ruby-2.1.4` (deprecated)
-- `ruby-2.1.5`
+- `ruby-2.0.0-p647`
+- `ruby-2.1.5` (deprecated)
 - `ruby-2.1.6`
-- `ruby-2.2.0` (deprecated)
-- `ruby-2.2.1`
-- `ruby-2.2.2` (default)
+- `ruby-2.1.7`
+- `ruby-2.2.1` (deprecated)
+- `ruby-2.2.2`
+- `ruby-2.2.3` (default)
 
 At least _three_ patch level versions will be kept of every version. If you want
 to keep using a old version you can lock the version on a box, but we
@@ -43,6 +40,19 @@ Every installed Ruby version comes installed with `bundler ~> 1.5.1`.
 The MIT License (MIT)
 
 # Changelog
+
+## master
+
+- Added `ruby-2.2.3`
+- Added `ruby-2.1.7`
+- Added `ruby-2.0.0-p647`
+- Removed `ruby-2.2.0`
+- Removed `ruby-2.1.4`
+- Removed `ruby-2.0.0-p598`
+- Removed `1.9.3-p551`
+- Removed `1.9.3-p550`
+- Removed `1.9.3-p547`
+- Set `ruby-2.2.3` as default
 
 ## 3.0.0
 

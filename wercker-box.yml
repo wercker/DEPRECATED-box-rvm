@@ -4,18 +4,15 @@ inherits: wercker/ubuntu12.04-webessentials@1.0.4
 type: main
 platform: ubuntu@12.04
 packages:
-    - ruby@1.9.3-p547
-    - ruby@1.9.3-p550
-    - ruby@1.9.3-p551
-    - ruby@2.0.0-p598
     - ruby@2.0.0-p643
     - ruby@2.0.0-p645
-    - ruby@2.1.4
+    - ruby@2.0.0-p647
     - ruby@2.1.5
     - ruby@2.1.6
-    - ruby@2.2.0
+    - ruby@2.1.7
     - ruby@2.2.1
     - ruby@2.2.2
+    - ruby@2.2.3
 keywords:
     - ruby
     - rvm
@@ -27,19 +24,16 @@ script: |
     curl -sSL https://get.rvm.io | bash -s stable
     echo "bundler -v~>1.9.0" > $HOME/.rvm/gemsets/global.gems
     source $HOME/.rvm/scripts/rvm
-    rvm install 1.9.3-p547
-    rvm install 1.9.3-p550
-    rvm install 1.9.3-p551
-    rvm install 2.0.0-p598
     rvm install 2.0.0-p643
     rvm install 2.0.0-p645
-    rvm install 2.1.4
+    rvm install 2.0.0-p647
     rvm install 2.1.5
     rvm install 2.1.6
-    rvm install 2.2.0
+    rvm install 2.1.7
     rvm install 2.2.1
     rvm install 2.2.2
-    rvm --default use 2.2.2
+    rvm install 2.2.3
+    rvm --default use 2.2.3
     echo "gem: --no-rdoc --no-ri" >> $HOME/.gemrc
     echo "RAILS_ENV=test" | sudo tee -a /etc/environment
     echo "RACK_ENV=test" | sudo tee -a /etc/environment
@@ -70,7 +64,7 @@ default-build:
                 steps:
                     # Uncomment this to force RVM to use a specific Ruby version
                     # - rvm-use:
-                    #       version: 2.2.2
+                    #       version: 2.2.3
 
                     # A step that executes `bundle install` command
                     - bundle-install
@@ -104,7 +98,7 @@ default-build:
                 steps:
                     # Uncomment this to force RVM to use a specific Ruby version
                     # - rvm-use:
-                    #       version: 2.2.2
+                    #       version: 2.2.3
 
                     # A step that executes `bundle install` command
                     - bundle-install
