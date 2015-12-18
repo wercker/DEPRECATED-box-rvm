@@ -41,11 +41,15 @@ The MIT License (MIT)
 
 # Changelog
 
-## master
+## 5.0.0
 
 - Added `ruby-2.2.4`
 - Added `ruby-2.1.8`
 - Added `ruby-2.0.0-p648`
+- Removed `ruby-2.2.1`
+- Removed `ruby-2.1.5`
+- Removed `ruby-2.0.0-p643`
+- Set `ruby-2.2.4` as default
 
 ## 4.0.0
 
