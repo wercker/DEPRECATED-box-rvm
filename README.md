@@ -18,7 +18,7 @@ At least _three_ patch level versions will be kept of every version. If you want
 to keep using a old version you can lock the version on a box, but we
 __strongly__ recommend upgrading to a newer version.
 
-If a Ruby version has `deprecated` next to it, than that version will be removed
+If a Ruby version has `deprecated` next to it, then that version will be removed
 next time a new Ruby version gets released.
 
 To switch the Ruby version specify a Ruby version accoring to the following
