@@ -12,7 +12,8 @@ Currently installed Rubies:
 - `ruby-2.1.8`
 - `ruby-2.2.2` (deprecated)
 - `ruby-2.2.3`
-- `ruby-2.2.4` (default)
+- `ruby-2.2.4`
+- `ruby-2.3.0` (default)
 
 At least _three_ patch level versions will be kept of every version. If you want
 to keep using a old version you can lock the version on a box, but we
@@ -40,6 +41,11 @@ Every installed Ruby version comes installed with `bundler ~> 1.5.1`.
 The MIT License (MIT)
 
 # Changelog
+
+## 6.0.0
+
+- Added `ruby-2.3.0`
+- Set `ruby-2.3.0` as default
 
 ## 5.0.0
 
