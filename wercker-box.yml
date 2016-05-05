@@ -14,6 +14,7 @@ packages:
     - ruby@2.2.3
     - ruby@2.2.4
     - ruby@2.3.0
+    - ruby@2.3.1
 keywords:
     - ruby
     - rvm
@@ -35,7 +36,8 @@ script: |
     rvm install 2.2.3
     rvm install 2.2.4
     rvm install 2.3.0
-    rvm --default use 2.3.0
+    rvm install 2.3.1
+    rvm --default use 2.3.1
     echo "gem: --no-rdoc --no-ri" >> $HOME/.gemrc
     echo "RAILS_ENV=test" | sudo tee -a /etc/environment
     echo "RACK_ENV=test" | sudo tee -a /etc/environment
