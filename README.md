@@ -43,6 +43,11 @@ The MIT License (MIT)
 
 # Changelog
 
+## 7.0.0
+
+- Added `ruby-2.3.1`
+- Set `ruby-2.3.1` as default
+
 ## 6.0.0
 
 - Added `ruby-2.3.0`
