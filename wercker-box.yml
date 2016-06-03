@@ -1,5 +1,5 @@
 name: rvm
-version: 7.0.0
+version: 8.0.0
 inherits: wercker/ubuntu12.04-webessentials@1.0.4
 type: main
 platform: ubuntu@12.04
@@ -7,12 +7,12 @@ packages:
     - ruby@2.0.0-p645
     - ruby@2.0.0-p647
     - ruby@2.0.0-p648
-    - ruby@2.1.6
     - ruby@2.1.7
     - ruby@2.1.8
-    - ruby@2.2.2
+    - ruby@2.1.9
     - ruby@2.2.3
     - ruby@2.2.4
+    - ruby@2.2.5
     - ruby@2.3.0
     - ruby@2.3.1
 keywords:
@@ -29,12 +29,12 @@ script: |
     rvm install 2.0.0-p645
     rvm install 2.0.0-p647
     rvm install 2.0.0-p648
-    rvm install 2.1.6
     rvm install 2.1.7
     rvm install 2.1.8
-    rvm install 2.2.2
+    rvm install 2.1.9
     rvm install 2.2.3
     rvm install 2.2.4
+    rvm install 2.2.5
     rvm install 2.3.0
     rvm install 2.3.1
     rvm --default use 2.3.1
