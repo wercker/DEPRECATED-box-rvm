@@ -14,7 +14,8 @@ Currently installed Rubies:
 - `ruby-2.2.4`
 - `ruby-2.2.5`
 - `ruby-2.3.0`
-- `ruby-2.3.1` (default)
+- `ruby-2.3.1`
+- `ruby-2.4.0` (default)
 
 At least _three_ patch level versions will be kept of every version. If you want
 to keep using a old version you can lock the version on a box, but we
